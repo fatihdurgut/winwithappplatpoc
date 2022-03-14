@@ -11,10 +11,10 @@ on:
 
 jobs:
   build:
-  defaults:
-  run:
-    working-directory: ./Contoso.Healthcare/
     runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: ./Contoso.Healthcare/
 
     steps:
       - uses: actions/checkout@v2
