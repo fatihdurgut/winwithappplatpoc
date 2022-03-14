@@ -11,6 +11,9 @@ on:
 
 jobs:
   build:
+  defaults:
+  run:
+    working-directory: ./Contoso.Healthcare/
     runs-on: windows-latest
 
     steps:
